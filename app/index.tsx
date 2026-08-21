@@ -9,8 +9,9 @@ const Home = () => {
   return (
     <View>
         <SafeAreaView>
-            <Text style={styles.titulo}>Menu clase 01</Text>
-            <Link href={'/pantalla1'}>Pantalla1</Link>
+            <Text style={styles.titulo}>Menu Clase 01</Text>
+            <Link href={'/pantalla1'}>Pantalla 1</Link>
+            <Link href={'/pantalla2'}>Pantalla 2</Link>
         </SafeAreaView>
     </View>
   )
@@ -20,9 +21,10 @@ const Home = () => {
 const styles=StyleSheet.create({
     titulo:{
         textAlign:'center',
-        fontSize:28,
+        fontSize:100,
         color:'#0000ff',
         fontWeight:'900'
-    }
+    },
 })
+
 export default Home

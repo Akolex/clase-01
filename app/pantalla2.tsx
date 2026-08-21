@@ -4,10 +4,9 @@ import React from 'react'
 import { Pressable, Text } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 
-const Pantalla1 = () => {
-    
-    const router = useRouter()
+const Pantalla2 = () => {
 
+    const router = useRouter()
     const volver = () =>{
         router.replace('/')
     }
@@ -23,4 +22,4 @@ const Pantalla1 = () => {
     )
 }
 
-export default Pantalla1
+export default Pantalla2
