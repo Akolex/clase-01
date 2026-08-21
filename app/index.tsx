@@ -1,4 +1,5 @@
 // Escribir rnfe + enter
+// Instalar extensiones Simple React Snippets y ES7 + React
 
 import { Link } from 'expo-router'
 import React from 'react'
