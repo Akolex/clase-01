@@ -12,7 +12,7 @@ const Pantalla2 = () => {
     }
 
     return (
-        <SafeAreaView>
+        <SafeAreaView style={{flex:1, padding:16, backgroundColor:'#DFE9F3'}}>
             <Pressable onPress={volver}>
                 <Text>
                     <Ionicons size={48} color='#000000' name='arrow-back-outline'></Ionicons>

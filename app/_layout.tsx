@@ -5,7 +5,7 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 
 const _layout = () => {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{flex:1}}>
       <Slot/>
       <StatusBar style='auto'/>
     </SafeAreaView>
