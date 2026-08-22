@@ -60,6 +60,8 @@ const Pantalla1 = () => {
                     <Text style={{color:'#94a3b8', fontSize:14, marginTop:4}}>Siguiendo</Text>             
                 </View>
             </View>
+
+            {/* Botón Seguir */}
             <View style={{backgroundColor:'#334155', height:1, width:'100%', marginVertical:24}} />
                 <Pressable style={({pressed}) => [
                     {
@@ -74,6 +76,7 @@ const Pantalla1 = () => {
                         Seguir
                     </Text>
                 </Pressable>
+                {/* Botón Mensaje */}
                 <Pressable style={({pressed}) => [
                     {
                         borderWidth:2,
